@@ -7,15 +7,6 @@
 Учебный модуль для управления списком студентов: отображение, редактирование оценок и посещаемости.  
 Стек: **React + React Router DOM + Redux Toolkit + TypeScript + SCSS modules**.
 
----
 
-## 🚀 Запуск проекта
-
-```bash
-git clone <repo-url>
-cd <project-name>
-npm install
-npm run dev
-
-![alt text](/public/image.png)
-![alt text](/public/image-1.png)
+![alt text](image.png)
+![alt text](image-1.png)
