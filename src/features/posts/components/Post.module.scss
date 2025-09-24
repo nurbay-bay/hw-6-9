@@ -1,0 +1,38 @@
+@import "../../../styles/abstracts/variables";
+
+.post {
+  border: 1px solid $border-color;
+  border-radius: $radius-md;
+  padding: $space-md;
+  box-shadow: $shadow-sm;
+  background: $bg-color;
+
+  strong {
+    display: block;
+    font-size: $font-size-lg;
+    margin-bottom: $space-xs;
+  }
+
+  p {
+    margin-bottom: $space-sm;
+    color: $text-color-light;
+  }
+}
+
+.actions {
+  display: flex;
+  gap: $space-sm;
+}
+
+.editForm {
+  display: flex;
+  flex-direction: column;
+  gap: $space-sm;
+
+  input,
+  textarea {
+    padding: $space-sm;
+    border: 1px solid $border-color;
+    border-radius: $radius-sm;
+  }
+}

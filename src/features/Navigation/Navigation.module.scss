@@ -1,0 +1,22 @@
+@import "../../styles/abstracts/variables";
+
+.nav {
+  display: flex;
+  gap: $space-md;
+
+  a {
+    color: $text-color-inverse;
+    font-size: $font-size-md;
+    text-decoration: none;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: $color-grey-1;
+    }
+
+    &.active {
+      font-weight: bold;
+      border-bottom: 2px solid $color-grey-1;
+    }
+  }
+}

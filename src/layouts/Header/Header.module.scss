@@ -1,0 +1,8 @@
+@import "../../styles/abstracts/variables";
+
+.header {
+  background-color: $primary-color;
+  color: $text-color-inverse;
+  padding: $space-md $space-lg;
+  box-shadow: $shadow-sm;
+}

@@ -1,0 +1,76 @@
+@import "../../styles/abstracts/variables";
+
+.wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: $space-lg;
+  background: $bg-color;
+  border: 1px solid $border-color;
+  border-radius: $radius-lg;
+  box-shadow: $shadow-md;
+  display: flex;
+  flex-direction: column;
+  gap: $space-md;
+}
+
+.title {
+  font-size: $font-size-xl;
+  font-weight: 600;
+  margin-bottom: $space-sm;
+  color: $text-color;
+}
+
+.info p {
+  margin: $space-xs 0;
+  font-size: $font-size-md;
+  color: $text-color;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: $space-sm;
+
+  input {
+    padding: $space-sm;
+    border: 1px solid $border-color;
+    border-radius: $radius-md;
+    font-size: $font-size-md;
+    color: $text-color;
+
+    &:disabled {
+      background: $disabled-color;
+      color: $text-color-light;
+    }
+  }
+}
+
+.actions {
+  display: flex;
+  gap: $space-sm;
+  flex-wrap: wrap;
+}
+
+.status {
+  text-align: center;
+  font-size: $font-size-md;
+  color: $text-color-light;
+}
+
+.error {
+  color: $danger-color;
+  font-size: $font-size-md;
+  font-weight: 500;
+}
+
+.link {
+  display: inline-block;
+  margin-top: $space-sm;
+  font-size: $font-size-md;
+  color: $primary-color;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

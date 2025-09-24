@@ -1,0 +1,29 @@
+@import "../../styles/abstracts/variables";
+
+.wrapper {
+  padding: $space-lg;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: $space-sm;
+  margin: $space-md 0;
+
+  input,
+  textarea {
+    padding: $space-sm;
+    border: 1px solid $border-color;
+    border-radius: $radius-sm;
+    font-size: $font-size-md;
+  }
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: $space-md;
+}
+
+
+

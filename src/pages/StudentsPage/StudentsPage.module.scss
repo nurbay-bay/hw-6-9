@@ -1,0 +1,42 @@
+@import "../../styles/abstracts/variables";
+
+.page {
+  padding: $space-lg;
+  background: $bg-color;
+  color: $text-color;
+}
+
+.error {
+  color: $danger-color;
+  margin-bottom: $space-md;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background: $color-white;
+  box-shadow: $shadow-sm;
+  border-radius: $radius-md;
+
+  th,
+  td {
+    padding: $space-sm $space-md;
+    border-bottom: 1px solid $border-color;
+    text-align: left;
+    font-size: $font-size-md;
+  }
+
+  th {
+    background: $primary-color;
+    color: $text-color-inverse;
+  }
+
+  tr:nth-child(even) {
+    background: $color-grey-1;
+  }
+
+  input {
+    width: 60px;
+    padding: $space-xs;
+  }
+}

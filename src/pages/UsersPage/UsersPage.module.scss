@@ -1,0 +1,54 @@
+@import "../../styles/abstracts/variables";
+
+.wrapper {
+  padding: $space-lg;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: $font-size-xl;
+  margin-bottom: $space-md;
+  color: $text-color;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: $space-sm;
+  margin-bottom: $space-lg;
+}
+
+.users {
+  display: grid;
+  gap: $space-md;
+}
+
+.userCard {
+  padding: $space-md;
+  border: 1px solid $border-color;
+  border-radius: $radius-md;
+  box-shadow: $shadow-sm;
+  background: $bg-color;
+
+  h3 {
+    margin-bottom: $space-xs;
+    font-size: $font-size-lg;
+    color: $secondary-color;
+  }
+
+  p {
+    margin-bottom: $space-sm;
+    color: $text-color-light;
+  }
+
+  a {
+    margin-right: $space-sm;
+    color: $primary-color;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
